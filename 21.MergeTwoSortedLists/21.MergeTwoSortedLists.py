@@ -1,10 +1,10 @@
 # Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
+class ListNode:
+     def __init__(self, val=0, next=None):
+         self.val = val
+         self.next = next
 class Solution:
-    def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
+    def mergeTwoLists(self, list1: [ListNode], list2: [ListNode]) -> [ListNode]:
 #Assumptions 
 # we r given the heads of Two Sorted linked lists
 # we need to merge the two lists in one sorted list, by splicing the nodes of the two lists
